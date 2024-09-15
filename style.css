@@ -1,8 +1,48 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'outfit',sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background-color: hsl(212, 45%, 89%);
 }
+h2{
+    text-align: center;
+    padding: 0 1.3rem;
+    color: #1f3251;
+}
+p {
+    font-size: 15px;
+    text-align: center;
+    color: #7b879b;
+    padding: 1rem 3rem;
+}
+#qr-container {
+    width: 350px;
+    height: 520px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 7rem;
+    margin-right:auto;
+    margin-left: auto;
+}
+.qr-code-img {
+    text-align:  center;
+
+}
+.qr-code-img img{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+/* mobile appilication */
+@media screen and (max-width : 480px){
+    #qr-container {
+        margin-top: 2rem;
+        width: 93%;
+    }    
+}
+
